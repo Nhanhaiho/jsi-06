@@ -1,0 +1,12 @@
+.Todo-Item{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    width:200px;
+    border:2px solid black;
+    
+}
+
+.delete-icons{
+    width:25px;
+}
