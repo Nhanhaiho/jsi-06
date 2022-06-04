@@ -1,19 +1,26 @@
 import logo from './logo.svg';
 import './App.css';
-import React,{useState} from 'react'
-import TodoContainer  from './components/TodoContainer';
-function App() {
-  const [count, setCount] = useState(0);
-  const increase = () => {
-    
-  }
-  return <div>
-    
-    <button type="button" >Subtract</button>
-    <header>count</header>
-    <button type="button">Add</button>
-    {/* <TodoContainer/> */}
-  </div>
-}
+import React, {useState} from 'react'
+// import TodoComponent from './components/TodoComponents';
+// import Login from './components/Login'
+import DemoNextUi  from './components/DemoNextUi';
+export default function App() {
+//   const [isLogin, setIsLogin] = useState(false)
 
-export default App;
+// const OnClickHandler = () => {
+// setIsLogin(!isLogin)
+// }
+  
+  return (
+    <div className="app">
+    {/* {isLogin === true ? <TodoComponent /> : <Login />}
+      <button onClick={OnClickHandler}>
+        {isLogin === true ? "Logout button": "Login button" }
+      </button> */}
+      <DemoNextUi/>
+  </div>
+  )
+}
+   
+
+
